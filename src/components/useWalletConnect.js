@@ -162,6 +162,9 @@ const useWalletConnect = (network, theme, chainid, rpcURLString) => {
         case 42:
             networkName = 'kovan';
             break;
+        case 2702: 
+            networkName = 'Libex';
+            break;          
         default:
             networkName = 'unknown';
       }    
